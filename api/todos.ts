@@ -17,7 +17,7 @@ app.get("/api/todos", (req, res) => {
 const todos = [
   { id: uuidv4(), title: "Buy groceries" },
   { id: uuidv4(), title: "Walk the dog" },
-  { id: uuidv4(), title: "Do laundry" },
+  { id: uuidv4(), title: "Don't do laundry" },
 ];
 
 // Helper function to get user-specific todos
